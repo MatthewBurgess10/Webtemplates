@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to bottom, #000, #111);
+    color: #fff;
+}
+
+.hero {
+    background: url('assets/background.png') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.btn-primary {
+    background-color: #ff5500;
+    border: none;
+}
+.countdown {
+    font-size: 2rem;
+}
+.video-section iframe {
+    width: 100%;
+    max-width: 720px;
+    height: 405px;
+    border: 0;
+}
+.features .card {
+    background-color: #222;
+    border: none;
+}
+.footer {
+    background: #111;
+    padding: 2rem 0;
+    text-align: center;
+}
